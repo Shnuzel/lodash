@@ -5,3 +5,7 @@ const randomBetween2nums = (min, max) => {
     return _.random(min, max);
 }
 
+// 4
+const minNum= (num)=>{
+    return _.min(num);
+}
