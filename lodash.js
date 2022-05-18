@@ -19,3 +19,9 @@ const sumNum= (num)=>{
 const capitalaize = (word)=>{
     return _.upperCase(word);
 }
+
+// 7
+const startswith = (letter)=>{
+    return _.startsWith(letter, "m")
+}
+console.log(startswith(['midbar']))
