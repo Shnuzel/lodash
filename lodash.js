@@ -15,3 +15,7 @@ const minNum= (num)=>{
 const sumNum= (num)=>{
     return _.sum(num);
 }
+// 6
+const capitalaize = (word)=>{
+    return _.upperCase(word);
+}
