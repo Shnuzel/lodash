@@ -24,4 +24,8 @@ const capitalaize = (word)=>{
 const startswith = (letter)=>{
     return _.startsWith(letter, "m")
 }
-console.log(startswith(['midbar']))
+
+// 8
+const keysInWord = (word)=>{
+    return _.keys(word)
+}
