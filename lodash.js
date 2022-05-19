@@ -29,3 +29,8 @@ const startswith = (letter)=>{
 const keysInWord = (word)=>{
     return _.keys(word)
 }
+
+// 9
+const findKey = (people) =>{
+    return _.findKey(people)
+}
